@@ -1,0 +1,165 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  padding: 22px 125px 16px 125px;
+  box-shadow: 0px 10px 10px rgba(89, 33, 133, 0.5);
+  width: 1280px;
+  background-color: white;
+}
+
+.logo-container {
+  margin-right: 112px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list-item {
+  margin-right: 21px;
+}
+
+.header-nav {
+  margin-right: 21px;
+}
+
+.header-input {
+  margin-right: 90px;
+}
+
+.header-login {
+  margin-right: 37px;
+}
+
+.header-list-link {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header-input {
+  width: 190px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 124, 239, 0.5);
+}
+
+.main {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(123, 97, 255, 0.5) 100%
+    ),
+    #ebdbff;
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+}
+
+.container {
+  width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-porfolio {
+  border: 1px solid #736296;
+  background-color: white;
+  width: 295px;
+  margin-right: 20px;
+}
+
+.main-portfolio-photo {
+  padding: 40px 67px 24px;
+}
+
+.main-portfolio-skills {
+  padding: 25px 30px;
+  background-color: rgba(123, 97, 255, 0.5);
+  border: 1px solid #736296;
+}
+
+.main-portfolio-skills-container {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 10px rgba(89, 33, 133, 0.5);
+  border-radius: 18px;
+
+  padding: 18px 30px;
+}
+
+.main-portfolio-about {
+  padding: 25px 30px;
+}
+
+.main-portfolio-about-container {
+  box-shadow: 0px 10px 10px rgba(89, 33, 133, 0.5);
+  border-radius: 18px;
+  padding: 18px 30px;
+}
+
+.main-dashboard {
+  padding: 20px 105px;
+  background-color: #ffffff;
+}
+
+.main-daschboard-container-item {
+  padding: 20px 25px 0px;
+  margin-bottom: 40px;
+  box-shadow: 0px 10px 10px rgba(89, 33, 133, 0.5);
+  border-radius: 18px;
+}
+
+.tags-list {
+  display: flex;
+}
+
+.tags-item {
+  margin-right: 10px;
+}
+
+.tags-container {
+  display: flex;
+}
+
+.tags-info {
+  margin-right: 15px;
+}
+
+.main-dashboard-btn {
+  margin-left: 500px;
+}
+
+.main-daschboard-container-textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: none;
+}
